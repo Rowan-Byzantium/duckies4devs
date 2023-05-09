@@ -21,25 +21,25 @@ const btnRgt = document.querySelector('.page-pics .button-right');
 const ThumbList = document.querySelector('#thumb-list')
 //select the list
 
-// btnLft.addEventListener('click', function(e) {
-//     ThumbList.appendChild(ThumbList.firstElementChild);
-// });
+/*btnLft.addEventListener('click', function(e) {
+    ThumbList.appendChild(ThumbList.firstElementChild);
+});
 
 
-// btnRgt.addEventListener("click", function(e){
-//     ThumbList.appendChild(ThumbList.lastElementChild)
-// })
+btnRgt.addEventListener("click", function(e){
+    ThumbList.appendChild(ThumbList.lastElementChild)
+})*/
 
 
 /* accordéon */
-const btnAdv = document.querySelector('.product-acrd-adv-js');
+const btnAdv = document.querySelector('.advantages .product-acrd-lnk');
 const adv = document.querySelector('.product-advantages');
 
 btnAdv.addEventListener('click', function(e){
     adv.classList.toggle('closed');
 });
 
-const btnCar = document.querySelector('.product-acrd-car-js');
+const btnCar = document.querySelector('.carac .product-acrd-lnk');
 const car = document.querySelector('.product-car')
 
 btnCar.addEventListener('click', function(e){
