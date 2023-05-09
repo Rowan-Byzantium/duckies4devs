@@ -52,4 +52,20 @@ btnCar.addEventListener('click', function(e){
 
 /*ajouter au panier*/
 
+const btnCart = document.querySelector('.button-basket-js');
+// select the button to add to cart
+const cartTxt = document.querySelector('.cart-nb')
+//select the number who will change
+
+btnCart.addEventListener('click', function(e){
+    /*cartTxt.replace('')*/
+    //add value to cart
+    //stop at 99
+
+    btnCart.innerText = 'Deja au panier'
+    //change button text
+
+    //block click on the button
+})
+
 
