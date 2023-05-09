@@ -1,3 +1,14 @@
-.thumb-l{
+.thumbs-l{
     display: none;
+}
+
+.thumbs{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .thumbs{
+        display: flex;
+        flex-direction: row;
+    }
 }
