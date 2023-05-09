@@ -13,16 +13,37 @@ pics.forEach(function (pic) {
     
 })
 
-
+/* carrousel images en haut */
 const btnLft = document.querySelector(".page-pics .button-left");
 const btnRgt = document.querySelector('.page-pics .button-right');
+//select the buttons left & right
 
-btnLft.addEventListener('click', function(e) {
-    const ulThumbs = document.querySelector('#thumb-list');
-    ulThumbs.appendChild(ulThumbs.firstElementChild);
+const ThumbList = document.querySelector('#thumb-list')
+//select the list
+
+// btnLft.addEventListener('click', function(e) {
+//     ThumbList.appendChild(ThumbList.firstElementChild);
+// });
+
+
+// btnRgt.addEventListener("click", function(e){
+//     ThumbList.appendChild(ThumbList.lastElementChild)
+// })
+
+
+/* accordéon */
+const btnAdv = document.querySelector('.product-acrd-adv-js');
+const adv = document.querySelector('.product-advantages');
+
+btnAdv.addEventListener('click', function(e){
+    adv.classList.toggle('closed');
 });
 
-btnRgt.addEventListener("click", function(e){
-    const ThumbList = document.querySelector('#thumb-list');
-    ThumbList.appendChild(ThumbList.lastElementChild)
-})
+const btnCar = document.querySelector('.product-acrd-car-js');
+const car = document.querySelector('.product-car')
+
+btnCar.addEventListener('click', function(e){
+    car.classList.toggle('closed');
+});
+
+

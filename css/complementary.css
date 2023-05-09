@@ -9,3 +9,11 @@
         flex-direction: row;
     }
 }
+
+.closed{
+    display: none;
+}
+
+.product-acrd-lnk.closed{
+    display: none;
+}
