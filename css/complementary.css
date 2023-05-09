@@ -10,8 +10,12 @@
     }
 }
 
-.closed{
+.hidden{
     display: none;
+}
+
+.closed{
+    display: block;
 }
 
 .product-acrd-lnk.closed{
